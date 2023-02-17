@@ -1,0 +1,409 @@
+/* navbar */
+
+body {
+    font-family: 'Noto Sans TC'!important;
+}
+.container {
+    max-width: 1140px;
+}
+
+.navbar {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: white;
+    box-shadow:0px 14px 8px rgba(0, 0, 0, 0.02),
+     0px 6px 6px rgba(0, 0, 0, 0.03),
+      0px 2px 3px rgba(0, 0, 0, 0.03),
+       0px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+.nav-link{
+    color: #CECECE;
+    font-weight: 500;
+}
+
+
+/* 自我介紹 */
+
+.introduction {
+}
+
+.intro{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    .intro {
+        text-align: center;
+    }
+}
+
+.intro-title h2{
+    font-weight: 500;
+}
+
+.intro-subtitle h4{
+    font-weight: 400;
+}
+
+.intro-subtitle .intro-subtitle-point{
+    font-weight: 500;
+    color: #06D2DF;
+}
+
+/* 按鈕 */
+
+.btn-primary {
+    display: block;
+    --bs-btn-bg: #06D2DF;
+    --bs-btn-hover-bg: #00A2AC;
+    --bs-btn-active-bg: #008E97;
+    border: none;
+    
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.intro-btn{
+    
+}
+
+.intro-btn-st{
+    width: 144px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.card-btn{
+    
+}
+
+@media screen and (max-width: 576px) {
+    .intro-btn {
+        display: flex;
+        justify-content: center;
+    }
+    /* .card-btn {
+        display: flex;
+        justify-content: center;
+    } */
+}
+
+/* 作品介紹 */
+
+.works {
+
+}
+
+.works-title {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+    .works-title {
+        text-align: center;
+    }
+}
+
+
+.card-img {
+    height: 360px;
+    object-fit: cover;
+}
+
+
+.card-date {
+    font-weight: 100;
+    color: #b9b9b9;
+
+}
+
+.card-title{
+    font-weight: 500;
+}
+
+.card-text {
+    display: block;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.card-tag {
+    display: inline;
+    font-size: 12px;
+    background-color: #F0F0F0;
+    padding: 6px 12px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+/* 淡入 */
+
+.fadein {
+    opacity: 0;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 100px;
+    border-top: 1px solid #C7C7C7;
+}
+
+.footer-body {
+    display: flex;
+    justify-self: center;
+}
+
+.footer-body a{
+    color: #000000;
+}
+
+
+.footer-img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-copy {
+    font-weight: 100;
+}
+
+/* 作品分頁 */
+
+.top_GC {
+    background-image: 
+    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.95), rgba(255, 255, 255)),
+    url(../images/works_GreenCommunity2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+@media screen and (max-width: 576px) {
+    .top_GC {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url(../images/works_GreenCommunity2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+.top_LN {
+    background-image: 
+    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9), rgba(255, 255, 255)),
+    url(../images/works_LittleNote.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+@media screen and (max-width: 576px) {
+    .top_LN {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url(../images/works_LittleNote.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+.top_MB {
+    background-image: 
+    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9), rgba(255, 255, 255)),
+    url(../images/works_MouseBaby.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+@media screen and (max-width: 576px) {
+    .top_MB {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url(../images/works_MouseBaby.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+.top_NL {
+    background-image: 
+    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9), rgba(255, 255, 255)),
+    url(../images/works_NoteLibrary.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+@media screen and (max-width: 576px) {
+    .top_NL {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url(../images/works_NoteLibrary.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+.top_FS {
+    background-image: 
+    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8), rgba(255, 255, 255)),
+    url(../images/works_Felis-002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+@media screen and (max-width: 576px) {
+    .top_FS {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url(../images/works_Felis-002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+.top_BS {
+    background-image: 
+    linear-gradient(to left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.7), rgba(255, 255, 255)),
+    url(../images/works_BedtimeStoryBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+@media screen and (max-width: 576px) {
+    .top_BS {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url(../images/works_BedtimeStoryBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}
+
+.top-body{
+    
+}
+
+.top-title{
+    font-weight: 500;
+}
+
+.top-text{
+    font-weight: 400;
+}
+
+.works-body {
+
+}
+
+.works-text {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    
+}
+
+.works-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.works-division{
+
+}
+
+/* @media screen and (max-width: 576px) {
+    .works-division {
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+} */
+
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+.point-title {
+    font-weight: 400;
+ }
+
+.back-btn {
+    font-weight: 300;
+    width: 144px;
+    height:40px;
+    --bs-btn-color: #000000;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-active-color: #000000;
+
+    --bs-btn-bg: #F0F0F0;
+    --bs-btn-hover-bg: #F0F0F0;
+    --bs-btn-active-bg: #F0F0F0;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-border-color: #000000;
+}
+
+.back-btn:hover {
+    border: solid 1pt;
+}
+
+.back-btn-arrow {
+    width: 40px;
+    height:40px;
+}
+
+/*關於*/
+.about-pic {
+    max-width: 100%;
+}
+
+.about-title {
+    font-weight: 400;
+}
+
+/* @media screen and (max-width: 576px) {
+    .about-title {
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+} */
+
+.about-year {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #b9b9b9;
+}
+
+.about-text {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+
+/* @media screen and (max-width: 320px) {
+    .about-text {
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+} */
+
+.skill-title {
+    color: #06D2DF;
+}
+
+.ps-text {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #b9b9b9;
+}
