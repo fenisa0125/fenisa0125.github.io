@@ -94,7 +94,7 @@ body {
 /* 作品介紹 */
 
 .works {
-
+    
 }
 
 .works-title {
@@ -107,6 +107,9 @@ body {
     }
 }
 
+.works-card {
+    padding: 0 12px;
+}
 
 .card-img {
     height: 360px;
@@ -115,7 +118,7 @@ body {
 
 
 .card-date {
-    font-weight: 100;
+    font-weight: 300;
     color: #b9b9b9;
 
 }
@@ -273,7 +276,7 @@ body {
 }
 @media screen and (max-width: 576px) {
     .top_BS {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
     url(../images/works_BedtimeStoryBG.jpg);
     background-repeat: no-repeat;
     background-position: center center;
