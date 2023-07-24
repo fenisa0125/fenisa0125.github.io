@@ -12,12 +12,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <!--animation-->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 </head>
 <body>
   <!--導覽列-->
   <nav class="navbar sticky-top navbar-expand-lg navbar-light ">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="images/Navbar_Home.png" alt="" class="navbar_logo">
       </a>
       <!--漢堡-->
@@ -42,12 +45,16 @@
   <div class="introduction">
     <div class="container">
       <div class="row intro">
-        <div class="col-lg-8 col-sm-12">
+        <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+          <!-- <lottie-player id="firstLottie" src="https://lottie.host/cd3f3a6d-06b9-4a48-b532-2ef67976d937/tvWcAlEfnC.json" style="width:300px; height: 300px;"loop autoplay></lottie-player> -->
+          <lottie-player id="clickPlayer" src="https://lottie.host/cd3f3a6d-06b9-4a48-b532-2ef67976d937/tvWcAlEfnC.json" style="width:360px; height: 360px;"></lottie-player>
+        </div>
+        <div class="col-md-6 col-sm-12">
           <div class="intro-title">
             <h2>你好，我是裔一ˋ妘！</h2>
           </div>
           <div class="intro-subtitle">
-            <h4>擅長<span class="intro-subtitle-point">UI / UX設計</span>，喜歡解決生活中的大小問題🔍</h4>
+            <h4 class="lh-base">擅長<span class="intro-subtitle-point">UI / UX設計</span>，喜歡解決生活中的大小問題🔍</h4>
           </div>
           <div class="intro-btn">
             <a class="btn btn-primary mt-5 py-2 intro-btn-st" href="link/About.html">關於我</a>
@@ -85,6 +92,28 @@
         </div> -->
 
         <div class="card mb-3 p-0" style="max-width: 1140px;" id="LN">
+          <div class="row g-0 ">
+            <div class="col-md-8">
+              <img src="images/works_LetsgoKaisui.png" class="img-fluid rounded-start card-img" alt="...">
+            </div>
+            <div class="col-md-4 align-self-center">
+              <div class="card-body ps-md-4">
+                <p class="card-date mb-1">2022－2023</p>
+                <h4 class="card-title">蓋水好行</h4>
+                <p class="card-text">漫遊臺北，蓋水好行！一款藉著走訪「臺北蓋水」特色人孔蓋，體驗在地臺北生活的觀光APP。</p>
+                <p class="card-tag">AR</p>
+                <p class="card-tag">App</p>
+                <p class="card-tag">UI / UX</p>
+                
+                <div class="card-btn">
+                  <a class="btn btn-primary mt-5 py-2" href="link/LetsGoKaisui.html">了解更多</a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <div class="card mb-3 p-0 fadein" style="max-width: 1140px;" id="LN">
           <div class="row g-0 ">
             <div class="col-md-8">
               <img src="images/works_LittleNote.png" class="img-fluid rounded-start card-img" alt="...">
@@ -208,7 +237,7 @@
         </div>
         <div class="col-lg-3 footer-body pt-3">
           <img src="images/footer-phone.svg" class="footer-img me-3" alt="">
-          <p>+886 916923107</p>
+          <p>0916923107</p>
         </div>
       </div>
       <div class="row">

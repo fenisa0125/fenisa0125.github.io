@@ -1,4 +1,31 @@
+// lottie
+LottieInteractivity.create({
+    player:'#clickPlayer',
+    mode:"chain",
+    actions: [
+        {
+            state: 'autoplay',
+            forceFlag: true,
+            transition: 'click',
+            frames: [0, 81]
+            
+        },
+        {
+            state: 'autoplay',
+            reset: true,
+            transition: 'click',
+            frames: [82, 112]
+        },
+        {
+            state: 'autoplay',
+            reset: true,
+            transition: 'onComplete',
+            frames: [112, 121]
+        }
+    ]
+});
 
+// jquery
 $(document).ready(function() {
     $(window).scroll( function(){
         $('.fadein').each( function(i){
@@ -12,11 +39,8 @@ $(document).ready(function() {
             
         }); 
     });
-    // $('[data-fancybox="gallery"]').fancybox({
-    //     thumbs : {
-    //         autoStart : true,
-    //         axis      : 'x'
-    //     }
-    // });
+
 });
 
+
+  
