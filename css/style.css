@@ -176,7 +176,7 @@ body {
 
 /* 作品分頁 */
 
-.top_GC {
+/* .top_GC {
     background-image: 
     linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.95), rgba(255, 255, 255)),
     url(../images/works_GreenCommunity2.png);
@@ -192,7 +192,7 @@ body {
     background-position: center center;
     background-size: cover;
     }
-}
+} */
 
 .top_LN {
     background-image: 
@@ -214,7 +214,7 @@ body {
 
 .top_MB {
     background-image: 
-    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9), rgba(255, 255, 255)),
+    linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9),  rgba(255, 255, 255), rgba(255, 255, 255)),
     url(../images/works_MouseBaby.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -222,7 +222,7 @@ body {
 }
 @media screen and (max-width: 576px) {
     .top_MB {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url(../images/works_MouseBaby.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -232,7 +232,7 @@ body {
 
 .top_NL {
     background-image: 
-    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9), rgba(255, 255, 255)),
+    linear-gradient(to left,  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6),rgba(255, 255, 255), rgba(255, 255, 255), rgba(255, 255, 255)),
     url(../images/works_NoteLibrary.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -250,7 +250,7 @@ body {
 
 .top_FS {
     background-image: 
-    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8), rgba(255, 255, 255)),
+    linear-gradient(to left,  rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255), rgba(255, 255, 255)),
     url(../images/works_Felis-002.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -258,7 +258,7 @@ body {
 }
 @media screen and (max-width: 576px) {
     .top_FS {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url(../images/works_Felis-002.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -268,7 +268,7 @@ body {
 
 .top_BS {
     background-image: 
-    linear-gradient(to left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.7), rgba(255, 255, 255)),
+    linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255), rgba(255, 255, 255)),
     url(../images/works_BedtimeStoryBG.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -276,7 +276,7 @@ body {
 }
 @media screen and (max-width: 576px) {
     .top_BS {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url(../images/works_BedtimeStoryBG.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -284,17 +284,18 @@ body {
     }
 }
 
+
 .top_GK {
     background-image: 
-    linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), rgba(255, 255, 255)),
+    linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255), rgba(255, 255, 255)),
     url(../images/works_LetsgoKaisui.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover; 
+    background-size: cover;
 }
 @media screen and (max-width: 576px) {
     .top_GK {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url(../images/works_LetsgoKaisui.png);
     background-repeat: no-repeat;
     background-position: center center;
