@@ -17,6 +17,11 @@ body {
        0px 0px 0px rgba(0, 0, 0, 0.03);
 }
 
+.navbar_logo {
+    width: 40px;
+    height:40px;
+}
+
 .nav-link{
     color: #CECECE;
     font-weight: 500;
