@@ -22,6 +22,7 @@ body {
     height:40px;
 }
 
+
 .nav-link{
     color: #CECECE;
     font-weight: 500;
@@ -34,7 +35,7 @@ body {
 }
 
 .intro{
-    padding: 60px 0px;
+    padding: 48px 0px;
     display: flex;
     align-items: center;
 }
@@ -61,6 +62,7 @@ body {
 /* 按鈕 */
 
 .btn-primary {
+    font-weight: 400;
     display: block;
     --bs-btn-bg: #06D2DF;
     --bs-btn-hover-bg: #00A2AC;
@@ -68,7 +70,7 @@ body {
     border: none;
     
     border-radius: 12px;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .intro-btn{
@@ -78,9 +80,24 @@ body {
 .intro-btn-st{
     width: 144px;
     height:40px;
-    border-radius: 20px;
+    margin-right: 16px;  
 }
 
+@media screen and (max-width: 576px) {
+    .intro-btn-st{
+        margin-right: 0px;  
+    }
+}
+
+.btnnn{
+    display: flex;
+}
+
+@media screen and (max-width: 576px) {
+    .btnnn{
+        display: block;
+    }
+}
 
 .card-btn{
     
@@ -117,6 +134,12 @@ body {
 
 .works-card {
     padding: 0 12px;
+}
+
+.card {
+    /* border: none;
+    box-shadow: rgba(17, 17, 26, 0.04) 0px 4px 16px 2px, rgba(17, 17, 26, 0.02) 0px 8px 40px 16px; */
+    /* <offset-x> <offset-y> <blur-radius> <spread-radius>*/
 }
 
 .card-img {
@@ -358,6 +381,12 @@ body {
     
 } */
 
+.overlay{
+    /* mix-blend-mode: multiply; */
+    clip-path: inset(0px 500px 0px 0px);
+    /* 上右下左 */
+}
+
 iframe {
     width: 100%;
     height: auto;
@@ -369,12 +398,12 @@ iframe {
  }
 
 .back-btn {
-    font-weight: 300;
+    font-weight: 400;
     width: 144px;
     height:40px;
-    --bs-btn-color: #000000;
-    --bs-btn-hover-color: #000000;
-    --bs-btn-active-color: #000000;
+    --bs-btn-color: #7b7b7b;
+    --bs-btn-hover-color: #7b7b7b;
+    --bs-btn-active-color: #7b7b7b;
 
     --bs-btn-bg: #F0F0F0;
     --bs-btn-hover-bg: #F0F0F0;
@@ -385,7 +414,8 @@ iframe {
 }
 
 .back-btn:hover {
-    border: solid 1pt;
+    /* border: solid 0.1px; */
+    outline: 0.5px solid #7b7b7b;
 }
 
 .back-btn-arrow {
