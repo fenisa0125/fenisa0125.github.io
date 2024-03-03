@@ -16,7 +16,7 @@
 </head>
 <body>
   <!--導覽列-->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light ">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container">
       <a class="navbar-brand" href="../index.html">
         <img src="../images/Navbar_Home.png" alt="" class="navbar_logo">
@@ -45,11 +45,31 @@
       <div class="row intro">
         <div class="col-md-6 col-sm-12">
           <div class="top-body">
-            <p class="card-date">2022</p>
+            <p class="card-date">2021.09－2022.01</p>
             <h2 class="top-title">Little Note</h2>
             <h4 class="top-text pb-4 lh-base">記錄你生活中的大小事！用最直覺的方式：拍照，來記錄事情，並讓「記錄」變得簡單、有趣。</h4>
             <p class="card-tag">App</p>
             <p class="card-tag">UI / UX</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 目錄按鈕 -->
+  <div class="skipto">
+    <div class="container">
+      <div class="works-body">
+        <div class="row justify-content-center">
+          <div class="row py-3">
+            <p class="works-title col-md-2 mb-0">目錄</p>
+            <div class="col-md-10 mb-0">
+              <a href="#Introduction" class="work-tag">作品介紹</a>
+              <a href="#UIDesign" class="work-tag">設計成果🎨</a>
+              <a href="#Highlights" class="work-tag">設計亮點</a>
+              <a href="#UserResearch" class="work-tag">使用者研究🔍</a>
+              <a href="#Result" class="work-tag">成果展示</a>
+            </div>
           </div>
         </div>
       </div>
@@ -63,7 +83,7 @@
         <div class="row justify-content-center">
 
           <!-- 區塊 -->
-          <div class="row my-3">
+          <div class="row my-3" id="Introduction">
             <p class="works-title col-md-2">作品介紹</p>
 
             <div class="col-md-10">
@@ -94,7 +114,50 @@
           </div>
 
           <!-- 區塊 -->
-          <div class="row my-3">
+          <div class="row my-3" id="UIDesign">
+            <p class="works-title col-md-2">設計成果</p>
+
+            <div class="col-md-10">
+              <p class="works-text">以下是Little Note的功能。使用者可以拍攝身邊的物品，例如：常常忘記攜帶的東西、要做的事項，App便會將使用者拍攝的物品轉為可愛的人物，接著便可選擇要人物出現的時間，點選完成後到指定的時間人物就會提醒自己。</p>
+              <a href="../images/LittleNote_7.png" data-fancybox="gallery">
+                <img src="../images/LittleNote_7.png" class="img-fluid rounded mb-3" alt="">
+              </a>
+              <p class="works-text">除了拍攝物品，App也提供預設選項，例如：會議、作業、購買物品等大家常會需要記錄的事項。讓使用者記錄事情時可以更快速、方便，減少打字的時間。</p>
+              <a href="../images/LittleNote_8.png" data-fancybox="gallery">
+                <img src="../images/LittleNote_8.png" class="img-fluid rounded mb-3" alt="">
+              </a>
+              <p class="works-text">實際使用過程：</p>
+              <a href="../images/LittleNote_9.gif" data-fancybox="gallery">
+                <img src="../images/LittleNote_9.gif" class="img-fluid rounded mb-3" alt="">
+              </a>
+            </div>
+          </div>
+
+          <!-- 區塊 -->
+          <div class="row my-3" id="Highlights">
+            <p class="works-title col-md-2">設計亮點</p>
+
+            <div class="col-md-10">
+              <h4 class="point-title">1. 開啟App即為相機</h4>
+              <p class="works-text">為了將記錄的步驟減少到最少，使用者開啟App後便會直接啟動相機，讓使用者能快速達到記錄的目的。並且符合我們設計的初衷：簡單、方便。</p>
+              <a href="../images/LittleNote_10.gif" data-fancybox="gallery">
+                <img src="../images/LittleNote_10.gif" class="img-fluid rounded mb-3" alt="">
+              </a>
+              <h4 class="point-title">2. 全滑動選項</h4>
+              <p class="works-text">使用者在選擇「提醒時間」及「項目」，可以透過滑動來快速找到所需的選項。</p>
+              <a href="../images/LittleNote_11.gif" data-fancybox="gallery">
+                <img src="../images/LittleNote_11.gif" class="img-fluid rounded mb-3" alt="">
+              </a>
+              <h4 class="point-title">3. 與記錄項目互動</h4>
+              <p class="works-text">將物品擬人化，並使用向量插畫風格來製作動畫，讓使用者在使用過程中能感到活潑、新奇。</p>
+              <a href="../images/LittleNote_12.gif" data-fancybox="gallery">
+                <img src="../images/LittleNote_12.gif" class="img-fluid rounded mb-3" alt="">
+              </a>
+            </div>
+          </div>
+
+          <!-- 區塊 -->
+          <div class="row my-3" id="UserResearch">
             <p class="works-title col-md-2">使用者研究</p>
 
             <div class="col-md-10">
@@ -127,50 +190,7 @@
           </div>
 
           <!-- 區塊 -->
-          <div class="row my-3">
-            <p class="works-title col-md-2">設計成果</p>
-
-            <div class="col-md-10">
-              <p class="works-text">以下是Little Note的功能。使用者可以拍攝身邊的物品，例如：常常忘記攜帶的東西、要做的事項，App便會將使用者拍攝的物品轉為可愛的人物，接著便可選擇要人物出現的時間，點選完成後到指定的時間人物就會提醒自己。</p>
-              <a href="../images/LittleNote_7.png" data-fancybox="gallery">
-                <img src="../images/LittleNote_7.png" class="img-fluid rounded mb-3" alt="">
-              </a>
-              <p class="works-text">除了拍攝物品，App也提供預設選項，例如：會議、作業、購買物品等大家常會需要記錄的事項。讓使用者記錄事情時可以更快速、方便，減少打字的時間。</p>
-              <a href="../images/LittleNote_8.png" data-fancybox="gallery">
-                <img src="../images/LittleNote_8.png" class="img-fluid rounded mb-3" alt="">
-              </a>
-              <p class="works-text">實際使用過程：</p>
-              <a href="../images/LittleNote_9.gif" data-fancybox="gallery">
-                <img src="../images/LittleNote_9.gif" class="img-fluid rounded mb-3" alt="">
-              </a>
-            </div>
-          </div>
-
-          <!-- 區塊 -->
-          <div class="row my-3">
-            <p class="works-title col-md-2">設計亮點</p>
-
-            <div class="col-md-10">
-              <h4 class="point-title">1. 開啟App即為相機</h4>
-              <p class="works-text">為了將記錄的步驟減少到最少，使用者開啟App後便會直接啟動相機，讓使用者能快速達到記錄的目的。並且符合我們設計的初衷：簡單、方便。</p>
-              <a href="../images/LittleNote_10.gif" data-fancybox="gallery">
-                <img src="../images/LittleNote_10.gif" class="img-fluid rounded mb-3" alt="">
-              </a>
-              <h4 class="point-title">2. 全滑動選項</h4>
-              <p class="works-text">使用者在選擇「提醒時間」及「項目」，可以透過滑動來快速找到所需的選項。</p>
-              <a href="../images/LittleNote_11.gif" data-fancybox="gallery">
-                <img src="../images/LittleNote_11.gif" class="img-fluid rounded mb-3" alt="">
-              </a>
-              <h4 class="point-title">3. 與記錄項目互動</h4>
-              <p class="works-text">將物品擬人化，並使用向量插畫風格來製作動畫，讓使用者在使用過程中能感到活潑、新奇。</p>
-              <a href="../images/LittleNote_12.gif" data-fancybox="gallery">
-                <img src="../images/LittleNote_12.gif" class="img-fluid rounded mb-3" alt="">
-              </a>
-            </div>
-          </div>
-
-          <!-- 區塊 -->
-          <div class="row my-3">
+          <div class="row my-3" id="Result">
             <p class="works-title col-md-2">成果展示</p>
 
             <div class="col-md-10">
@@ -196,6 +216,12 @@
     </div>
   </div>  
 
+  <!-- 回到頂端 -->
+  <a href="#" class="gotop" id="gotop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+    </svg>
+  </a>
 
   <!--footer-->
   <div class="footer">
@@ -212,7 +238,7 @@
       </div>
       <div class="row">
         <div class="col-lg-3 footer-copy">
-          <p>Copyright © 2023 Chen I-Yun</p>
+          <p>Copyright © 2024 Chen I-Yun</p>
         </div>
       </div>
     </div>

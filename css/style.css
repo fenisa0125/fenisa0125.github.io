@@ -11,8 +11,7 @@ body {
     padding-top: 11px;
     padding-bottom: 11px;
     background-color: white;
-    box-shadow: 0px 10px 8px 4px rgba(17, 17, 26, 0.015),
-     0px 6px 6px rgba(17, 17, 26, 0.02);
+    box-shadow: 0px 10px 8px 4px rgba(17, 17, 26, 0.015),0px 6px 6px rgba(17, 17, 26, 0.02);
 }
 
 .navbar_logo {
@@ -20,12 +19,19 @@ body {
     height:40px;
 }
 
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 
 .nav-link{
     color: #CECECE;
     font-weight: 500;
 }
-
 
 /* 自我介紹 */
 
@@ -192,6 +198,38 @@ body {
     top:16px;
 }
 
+/* 回到頂端 */
+
+.gotop {
+    display: none;
+    width: 56px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+	z-index: 999;
+    box-shadow: 0 0 6px 12px rgba(17, 17, 26, 0.015),0 0 4px 2px rgba(17, 17, 26, 0.1);
+    border: none;
+}
+
+.gotop svg {
+    position:absolute;
+    top:30%;
+    left:29%;
+    color: #7b7b7b;
+}
+
+@media screen and (max-width: 576px) {
+    .gotop {
+        scale: 80%;
+        bottom: 1em;
+        right: 1em;
+    }
+    
+}
+
 /* footer */
 
 .footer {
@@ -202,6 +240,7 @@ body {
 .footer-body {
     display: flex;
     justify-self: center;
+    word-break: break-all;
 }
 
 .footer-body a{
@@ -348,6 +387,45 @@ body {
     }
 }
 
+
+/* 目錄按鈕 */
+
+.skipto {
+    background-color: #FFFFFF;
+    color: #CECECE;
+    position: sticky;
+    top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .skipto {
+        display: none;
+    }
+}
+
+:root {
+    scroll-padding-top: 4rem; /* 空出導覽列高度 */
+}
+
+.work-tag {
+    display: inline;
+    font-size: 12px;
+    background-color: #F0F0F0;
+    padding: 6px 12px;
+    margin-right: 12px;
+    border-radius: 6px;
+    text-decoration:none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.work-tag:hover {
+    background-color: #CECECE;
+    color: #000000;
+}
+
+/* 文章內容 */
+
 .GK_link{
     text-decoration:none;
     color: #000000;
@@ -408,7 +486,8 @@ iframe {
   }
 
 .point-title {
-    font-weight: 400;
+    font-weight: 500;
+    padding-bottom: 6px;
  }
 
 .back-btn {

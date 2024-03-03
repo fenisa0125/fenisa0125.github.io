@@ -16,7 +16,7 @@
 </head>
 <body>
   <!--導覽列-->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light ">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container">
       <a class="navbar-brand" href="../index.html">
         <img src="../images/Navbar_Home.png" alt="" class="navbar_logo">
@@ -45,12 +45,31 @@
       <div class="row intro">
         <div class="col-md-6 col-sm-12">
           <div class="top-body">
-            <p class="card-date">2021</p>
+            <p class="card-date">2021.03－2021.06</p>
             <h2 class="top-title">Note Library</h2>
             <h4 class="top-text pb-4 lh-base">電子書與筆記本結合的學習平台，再加上手寫筆技術，讓喜歡在紙上做筆記的使用者，能將內容數位同步到App中。</h4>
             <p class="card-tag">App</p>
             <p class="card-tag">UI</p>
             <p class="card-tag">實體裝置</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 目錄按鈕 -->
+  <div class="skipto">
+    <div class="container">
+      <div class="works-body">
+        <div class="row justify-content-center">
+          <div class="row py-3">
+            <p class="works-title col-md-2 mb-0">目錄</p>
+            <div class="col-md-10 mb-0">
+              <a href="#Introduction" class="work-tag">作品介紹</a>
+              <a href="#UIDesign" class="work-tag">設計成果🎨</a>
+              <a href="#UserResearch" class="work-tag">作品發想</a>
+              <a href="#Result" class="work-tag">成果展示</a>
+            </div>
           </div>
         </div>
       </div>
@@ -64,7 +83,7 @@
         <div class="row justify-content-center">
 
           <!-- 區塊 -->
-          <div class="row my-3">
+          <div class="row my-3" id="Introduction">
             <p class="works-title col-md-2">作品介紹</p>
 
             <div class="col-md-10">
@@ -95,36 +114,8 @@
           </div>
 
           <!-- 區塊 -->
-          <div class="row my-3">
-            <p class="works-title col-md-2">作品發想</p>
-
-            <div class="col-md-10">
-              <p class="works-text">我們從組員的以往學習經驗以及歷程，發現了兩個問題：</p>
-              <h5 class="point-title">1. 筆記抄寫困難</h5>
-              <p class="works-text">上課中為了聽老師講解，並且邊抄寫筆記，常常無法專心學習。尤其老師們的教學速度不一，造成許多學生來不及完成筆記就被擦掉，降低了學習效益。</p>
-              <h5 class="point-title">2. 書包沉重</h5>
-              <p class="works-text">從小學入學開始，學童的書包就非常的沉重。研究顯示甚至重達13磅，導致學童的身體產生許多症狀。</p>
-              <a href="../images/NoteLibrary_1.png" data-fancybox="gallery">
-                <img src="../images/NoteLibrary_1.png" class="img-fluid rounded mb-3" alt="">
-              </a>
-              <p class="works-text">為了解決上述兩個問題，我們決定製作一款結合撰寫筆記及電子教科書的App，整體裝置分為App及手寫筆。<br><br>
-                App內包含電子教科書及筆記本等功能，學生不但能在App上抄寫筆記，也能查看或套用他人的筆記，讓知識分享、繁衍下去。<br><br>手寫筆則是結合現有技術「Neo smartpen Dimo智慧筆」，讓喜歡手寫的使用者也能在自己的筆記本上抄寫筆記，並同步至App中。而我們在筆上額外增加按鈕，讓線上上課的學生也能及時提問。</p>
-              <a href="../images/NoteLibrary_2.png" data-fancybox="gallery">
-                <img src="../images/NoteLibrary_2.png" class="img-fluid rounded mb-3" alt="">
-              </a>
-              <p class="works-text">App中的筆記會透過圖層的方式蓋在教科書上，當使用者不想套用此張筆記時，隨時可透過上方的選單取消掉。而手寫筆上加裝了按鈕以及led燈，當學生有問題時，按下自己筆上的按鈕，老師便能知道這部分有學生不懂，並加以講解。
-            </p>
-              <a href="../images/NoteLibrary_3.png" data-fancybox="gallery">
-                <img src="../images/NoteLibrary_3.png" class="img-fluid rounded mb-3" alt="">
-              </a>
-              </a>
-            </div>
-
-          </div>
-
-          <!-- 區塊 -->
-          <div class="row my-3">
-            <p class="works-title col-md-2">功能介紹</p>
+          <div class="row my-3" id="UIDesign">
+            <p class="works-title col-md-2">設計成果</p>
 
             <div class="col-md-10">
               <h4 class="point-title">1. 自訂書櫃、筆記</h4>
@@ -156,7 +147,35 @@
           </div>
 
           <!-- 區塊 -->
-          <div class="row my-3">
+          <div class="row my-3" id="UserResearch">
+            <p class="works-title col-md-2">作品發想</p>
+
+            <div class="col-md-10">
+              <p class="works-text">我們從組員的以往學習經驗以及歷程，發現了兩個問題：</p>
+              <h5 class="point-title">1. 筆記抄寫困難</h5>
+              <p class="works-text">上課中為了聽老師講解，並且邊抄寫筆記，常常無法專心學習。尤其老師們的教學速度不一，造成許多學生來不及完成筆記就被擦掉，降低了學習效益。</p>
+              <h5 class="point-title">2. 書包沉重</h5>
+              <p class="works-text">從小學入學開始，學童的書包就非常的沉重。研究顯示甚至重達13磅，導致學童的身體產生許多症狀。</p>
+              <a href="../images/NoteLibrary_1.png" data-fancybox="gallery">
+                <img src="../images/NoteLibrary_1.png" class="img-fluid rounded mb-3" alt="">
+              </a>
+              <p class="works-text">為了解決上述兩個問題，我們決定製作一款結合撰寫筆記及電子教科書的App，整體裝置分為App及手寫筆。<br><br>
+                App內包含電子教科書及筆記本等功能，學生不但能在App上抄寫筆記，也能查看或套用他人的筆記，讓知識分享、繁衍下去。<br><br>手寫筆則是結合現有技術「Neo smartpen Dimo智慧筆」，讓喜歡手寫的使用者也能在自己的筆記本上抄寫筆記，並同步至App中。而我們在筆上額外增加按鈕，讓線上上課的學生也能及時提問。</p>
+              <a href="../images/NoteLibrary_2.png" data-fancybox="gallery">
+                <img src="../images/NoteLibrary_2.png" class="img-fluid rounded mb-3" alt="">
+              </a>
+              <p class="works-text">App中的筆記會透過圖層的方式蓋在教科書上，當使用者不想套用此張筆記時，隨時可透過上方的選單取消掉。而手寫筆上加裝了按鈕以及led燈，當學生有問題時，按下自己筆上的按鈕，老師便能知道這部分有學生不懂，並加以講解。
+            </p>
+              <a href="../images/NoteLibrary_3.png" data-fancybox="gallery">
+                <img src="../images/NoteLibrary_3.png" class="img-fluid rounded mb-3" alt="">
+              </a>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- 區塊 -->
+          <div class="row my-3" id="Result">
             <p class="works-title col-md-2">成果展示</p>
 
             <div class="col-md-10">
@@ -178,6 +197,12 @@
     </div>
   </div>  
 
+  <!-- 回到頂端 -->
+  <a href="#" class="gotop" id="gotop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+    </svg>
+  </a>
 
   <!--footer-->
   <div class="footer">
@@ -194,7 +219,7 @@
       </div>
       <div class="row">
         <div class="col-lg-3 footer-copy">
-          <p>Copyright © 2023 Chen I-Yun</p>
+          <p>Copyright © 2024 Chen I-Yun</p>
         </div>
       </div>
     </div>
